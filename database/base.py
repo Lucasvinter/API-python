@@ -15,3 +15,5 @@ class BaseDao(Conexao):
     def alterar(self, sql_id):
         self.cursor.execute(sql_id)
         return self.cursor.commit()
+
+
